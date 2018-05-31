@@ -1,4 +1,4 @@
-<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="TestBot._default" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="default.aspx.cs" Inherits="TestBot._default" %>
 
 <!DOCTYPE html>
 
@@ -15,6 +15,9 @@
         <br />
         <br />
         <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Push Sticker Message" />
+        <br />
+        <br />
+        <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Push Me" />
     
     </div>
     </form>

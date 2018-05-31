@@ -27,7 +27,13 @@ namespace TestBot
         protected void Button2_Click(object sender, EventArgs e)
         {
             var bot = new Bot(channelAccessToken);
-            bot.PushMessage(AdminUserId, 1,2);
+            bot.PushMessage(AdminUserId, 1,15);
+        }
+
+        protected void Button3_Click(object sender, EventArgs e)
+        {
+            var bot = new Bot(channelAccessToken);
+            bot.PushMessage(AdminUserId, new Uri("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ_5FS-O5Wirurj7a29CBNtbCZ2Hd44XeuNnA0NV6LUBWA3o5sr"));
         }
     }
 }
